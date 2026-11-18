@@ -20,7 +20,7 @@ def month_of(date):
 
 
 def sales_of(row):
-    """Return the sales of one row: quantitiy times unit price."""
+    """Return the sales of one row: quantity times unit price."""
     return int(row["qty"]) * int(row["unit_price"])
 
 
