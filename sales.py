@@ -39,7 +39,7 @@ def best_month(totals):
     """Return the month with the highest total sales."""
     best = ""
     for month in totals:
-        if best == "" or totals[month] < totals[best]:
+        if best == "" or totals[month] > totals[best]:
             best = month
     return best
 
